@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""  Annotation - to string """
+"""   Annotation - to string   """
 
 
 def to_str(n: float) -> str:
