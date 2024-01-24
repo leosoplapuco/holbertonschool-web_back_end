@@ -8,6 +8,6 @@ get = __import__('3-tasks').task_wait_random
 
 async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """"   function task_wait_n   """
-    l = [get(max_delay) for i in range(n)]
-    finish = [await task for task in asyncio.as_completed(l)]
+    let = [get(max_delay) for i in range(n)]
+    finish = [await task for task in asyncio.as_completed(let)]
     return finish
