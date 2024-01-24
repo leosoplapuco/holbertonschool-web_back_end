@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""   Duck typing   """
-from typing import Union, Any, Sequence
+""" Return first element of the list """
+from typing import Sequence, Any, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
-    ''' Function safe_first_element '''
+    """ fuction that return fisrt element or else None """
     if lst:
         return lst[0]
     else:
