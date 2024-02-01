@@ -1,0 +1,2 @@
+//  Lists all documents who called "Holberton school" in the collection school
+db.school.find({name:"Holberton school"})
