@@ -3,7 +3,6 @@
 
 
 def list_all(mongo_collection):
-    """ lists all documents in a collection
-    """
+    """   lists all documents in a collectio   """
     documents = mongo_collection.find()
     return documents
