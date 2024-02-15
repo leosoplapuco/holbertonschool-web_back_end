@@ -4,11 +4,11 @@ export default function taskBlock(trueOrFalse) {
 
   if (trueOrFalse) {
     const task = true;
-    if (task = false) {
+    if (task === false) {
       console.log(task);
     }
     const task2 = false;
-    if (task2 = true) {
+    if (task2 === true) {
       console.log(task2);
     }
   }
