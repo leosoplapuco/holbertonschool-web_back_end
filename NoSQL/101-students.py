@@ -4,6 +4,8 @@ import pymongo
 
 
 def top_students(mongo_collection):
+    """   function top_students   """
+
     pipeline = [
         {
             "$addFields": {
